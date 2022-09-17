@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 import runner.BaseTest;
 
 public final class CalculatorTest extends BaseTest {
-
     @Test
     public void testGetInitialValue() {
         String initialValue = new CalculatorPage()
